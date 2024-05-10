@@ -123,6 +123,10 @@ a:focus {
   font-weight: bold;
 }
 
+.cert {
+  font-weight: bold;
+}
+
 .navbar-brand span {
   color: #0355cc;
   text-transform: uppercase;
