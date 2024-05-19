@@ -1,6 +1,10 @@
-@media (max-width: 1300px) {}
+@media (max-width: 1300px) {
+    /* Add specific styles for this breakpoint if needed */
+}
 
-@media (max-width: 1120px) {}
+@media (max-width: 1120px) {
+    /* Add specific styles for this breakpoint if needed */
+}
 
 @media (max-width: 992px) {
     .hero_area {
@@ -33,13 +37,14 @@
         width: 75px;
     }
 
-
     .feature_section {
         transform: none;
         padding: 90px 0;
     }
 
-
+    .image-description {
+        opacity: 1;
+    }
 }
 
 @media (max-width: 767px) {
@@ -76,7 +81,6 @@
         margin-bottom: 45px;
     }
 
-
     .professional_section .img-box {
         display: none;
     }
@@ -90,20 +94,32 @@
         height: 90%;
         top: 25px;
     }
-
 }
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    /* Add specific styles for this breakpoint if needed */
+}
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    /* Add specific styles for this breakpoint if needed */
+}
 
-@media (max-width: 400px) {}
+@media (max-width: 400px) {
+    /* Add specific styles for this breakpoint if needed */
+}
 
-@media (max-width: 360px) {}
+@media (max-width: 360px) {
+    /* Add specific styles for this breakpoint if needed */
+}
 
 @media (min-width: 1200px) {
     .container {
         max-width: 1170px;
     }
+}
 
+@media (min-width: 993px) {
+    .image-container:hover .image-description {
+        opacity: 1;
+    }
 }

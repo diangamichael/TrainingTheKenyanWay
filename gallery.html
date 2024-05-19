@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Basic -->
+    <!-- Basic Metas -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- Mobile Metas -->
@@ -35,28 +35,26 @@
     <!-- CSS Links -->
     <link
       rel="stylesheet"
-      type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
 
     <style>
       .gallery img {
         width: 100%;
         height: auto;
         object-fit: cover;
-        border: solid 1px #ccc;
+        border: 1px solid #ccc;
         margin-bottom: 10px;
       }
     </style>
   </head>
-
   <body>
     <div class="hero_area">
-      <!-- Header section starts -->
+      <!-- Header section -->
       <header class="header_section">
         <div class="header_top">
           <div class="container-fluid">
@@ -81,7 +79,7 @@
                   alt="Training The Kenyan Way"
                   class="logo"
                 />
-                <span class="logo_name">Training The Kenyan Way </span>
+                <span class="logo_name">Training The Kenyan Way</span>
               </a>
               <button
                 class="navbar-toggler"
@@ -92,7 +90,7 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class=""> </span>
+                <span></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
@@ -117,7 +115,6 @@
           </div>
         </div>
       </header>
-      <!-- End header section -->
     </div>
 
     <!-- Gallery section -->
@@ -125,43 +122,102 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-4">
-            <img src="images/photo7.jpg" class="img-fluid" alt="Image 7" />
-            <img src="images/photo211.jpeg" class="img-fluid" alt="Image 21" />
+            <div class="image-container">
+              <img src="images/photo7.jpg" class="img-fluid" alt="Image 7" />
+              <div class="image-description">
+                2004 - Won the Big Lake Half Marathon.
+              </div>
+            </div>
+            <div class="image-container">
+              <img
+                src="images/photo211.jpeg"
+                class="img-fluid"
+                alt="Image 21"
+              />
+              <div class="image-description"></div>
+            </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <img src="images/photo11.jpeg" class="img-fluid" alt="Image 15" />
-            <!-- <img src="images/photo16.jpeg" class="img-fluid" alt="Image 11" /> -->
+            <div class="image-container">
+              <img src="images/photo11.jpeg" class="img-fluid" alt="Image 15" />
+              <div class="image-description"></div>
+            </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <img src="images/photo6.jpeg" class="img-fluid" alt="Image 11" />
-            <img src="images/photo12.jpg" class="img-fluid" alt="Image 16" />
+            <div class="image-container">
+              <img src="images/photo6.jpeg" class="img-fluid" alt="Image 11" />
+              <div class="image-description"></div>
+            </div>
+            <div class="image-container">
+              <img src="images/photo12.jpg" class="img-fluid" alt="Image 16" />
+              <div class="image-description">
+                A group of kids I used to train.
+              </div>
+            </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <img src="images/photo23.jpeg" class="img-fluid" alt="Image 22" />
-            <img src="images/photo4.jpeg" class="img-fluid" alt="Image 4" />
+            <div class="image-container">
+              <img src="images/photo23.jpeg" class="img-fluid" alt="Image 22" />
+              <div class="image-description"></div>
+            </div>
+            <div class="image-container">
+              <img src="images/photo4.jpeg" class="img-fluid" alt="Image 4" />
+              <div class="image-description"></div>
+            </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <img src="images/photo15.jpeg" class="img-fluid" alt="Image 21" />
+            <div class="image-container">
+              <img src="images/photo15.jpeg" class="img-fluid" alt="Image 21" />
+              <div class="image-description"></div>
+            </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <img src="images/photo19.jpeg" class="img-fluid" alt="Image 19" />
-            <img src="images/photo10.jpg" class="img-fluid" alt="Image 23" />
+            <div class="image-container">
+              <img src="images/photo19.jpeg" class="img-fluid" alt="Image 19" />
+              <div class="image-description"></div>
+            </div>
+            <div class="image-container">
+              <img src="images/photo10.jpg" class="img-fluid" alt="Image 23" />
+              <div class="image-description">Ocean State Marathon starter.</div>
+            </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <img src="images/photo1.jpg" class="img-fluid" alt="Image 6" />
-            <img src="images/photo2.jpg" class="img-fluid" alt="Image 2" />
+            <div class="image-container">
+              <img src="images/photo1.jpg" class="img-fluid" alt="Image 6" />
+              <div class="image-description">
+                Happy smiling kids after training sessions.
+              </div>
+            </div>
+            <div class="image-container">
+              <img src="images/photo2.jpg" class="img-fluid" alt="Image 2" />
+              <div class="image-description">
+                A group of former clients after a training session.
+              </div>
+            </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <img src="images/photo3.jpg" class="img-fluid" alt="Image 3" />
+            <div class="image-container">
+              <img src="images/photo3.jpg" class="img-fluid" alt="Image 3" />
+              <div class="image-description">Host Family in Germany 1997.</div>
+            </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4">
-            <img src="images/photo5.jpg" class="img-fluid" alt="Image 5" />
-            <img src="images/photo13.jpeg" class="img-fluid" alt="Image 6" />
+            <div class="image-container">
+              <img src="images/photo5.jpg" class="img-fluid" alt="Image 5" />
+              <div class="image-description">
+                Urkunde city-Lauf Germany 1999.
+              </div>
+            </div>
+            <div class="image-container">
+              <img src="images/photo13.jpeg" class="img-fluid" alt="Image 6" />
+              <div class="image-description">
+                Working out is a great form of self love
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- End gallery section -->
 
     <!-- Info section -->
     <section class="info_section">
@@ -231,7 +287,6 @@
         </div>
       </div>
     </section>
-    <!-- End info section -->
 
     <!-- Footer section -->
     <footer class="footer_section">
@@ -244,7 +299,6 @@
         </p>
       </div>
     </footer>
-    <!-- End footer section -->
 
     <!-- Scripts -->
     <script src="js/jquery-3.4.1.min.js"></script>
@@ -257,7 +311,7 @@
       defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"
     ></script>
-    <!-- End Google Map -->
+    <!-- Year Display Script -->
     <script>
       document.getElementById("displayDateYear").textContent =
         new Date().getFullYear();
