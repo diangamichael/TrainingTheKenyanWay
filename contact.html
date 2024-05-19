@@ -10,11 +10,11 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <!-- Site Metas -->
-    <meta name="keywords" content="Trainning The Kenyan Way" />
-    <meta name="description" content="Trainning The Kenyan Way" />
+    <meta name="keywords" content="Training The Kenyan Way" />
+    <meta name="description" content="Training The Kenyan Way" />
     <meta name="author" content="Dimite Technologies Ltd" />
 
-    <title>Home - Trainning The Kenyan Way</title>
+    <title>Home - Training The Kenyan Way</title>
 
     <!-- slider stylesheet -->
     <link
@@ -26,7 +26,6 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <!-- font awesome style -->
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet" />
     <!-- responsive style -->
@@ -35,16 +34,16 @@
 
   <body>
     <div class="hero_area">
-      <!-- header section strats -->
+      <!-- header section starts -->
       <header class="header_section">
         <div class="header_top">
           <div class="container-fluid">
             <div class="contact_nav">
-              <a href="">
+              <a href="tel:+17607559096">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span> Call : +1 7607559096 </span>
               </a>
-              <a href="">
+              <a href="mailto:m2gnash@yahoo.com">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span> Email : m2gnash@yahoo.com </span>
               </a>
@@ -55,9 +54,15 @@
           <div class="container-fluid">
             <nav class="navbar navbar-expand-lg custom_nav-container">
               <a class="navbar-brand" href="index.html">
-                <span> Trainning The Kenyan Way </span>
+                <span>
+                  <img
+                    src="images/logocopy.webp"
+                    alt="Training The Kenyan Way"
+                    class="logo"
+                  />
+                  Training The Kenyan Way
+                </span>
               </a>
-
               <button
                 class="navbar-toggler"
                 type="button"
@@ -69,13 +74,10 @@
               >
                 <span class=""> </span>
               </button>
-
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html"
-                      >Home <span class="sr-only">(current)</span></a
-                    >
+                    <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="about.html"> About</a>
@@ -99,7 +101,6 @@
     </div>
 
     <!-- contact section -->
-
     <section class="contact_section layout_padding">
       <div class="container">
         <div class="heading_container">
@@ -109,33 +110,30 @@
           <div class="col-md-6">
             <form action="#">
               <div>
-                <input type="text" placeholder="Name" />
+                <input type="text" name="name" placeholder="Name" />
               </div>
               <div>
-                <input type="text" placeholder="Phone Number" />
+                <input type="text" name="phone" placeholder="Phone Number" />
               </div>
               <div>
-                <input type="email" placeholder="Email" />
+                <input type="email" name="email" placeholder="Email" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <input
+                  type="text"
+                  name="message"
+                  class="message-box"
+                  placeholder="Message"
+                />
               </div>
               <div class="d-flex">
-                <button>SEND</button>
+                <button type="submit">SEND</button>
               </div>
             </form>
-          </div>
-          <div class="col-md-6">
-            <div class="map_container">
-              <div class="map">
-                <div id="googleMap" style="width: 100%; height: 100%"></div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </section>
-
     <!-- end contact section -->
 
     <!-- info section -->
@@ -147,7 +145,7 @@
             <div class="info_items">
               <div class="row">
                 <div class="col-md-4">
-                  <a href="">
+                  <a href="#">
                     <div class="item">
                       <div class="img-box">
                         <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -164,7 +162,7 @@
                   </a>
                 </div>
                 <div class="col-md-4">
-                  <a href="">
+                  <a href="tel:+17607559096">
                     <div class="item">
                       <div class="img-box">
                         <i class="fa fa-phone" aria-hidden="true"></i>
@@ -174,7 +172,7 @@
                   </a>
                 </div>
                 <div class="col-md-4">
-                  <a href="">
+                  <a href="mailto:m2gnash@yahoo.com">
                     <div class="item">
                       <div class="img-box">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -191,24 +189,14 @@
       <div class="social-box">
         <h4>Follow Us</h4>
         <div class="box">
-          <a href="">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-          </a>
-          <a href="">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-          </a>
-          <a href="">
-            <i class="fa fa-youtube" aria-hidden="true"></i>
-          </a>
-          <a href="">
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-          </a>
+          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </div>
       </div>
     </section>
-
     <!-- end info_section -->
-
     <!-- footer section -->
     <footer class="footer_section">
       <div class="container">
@@ -221,13 +209,17 @@
       </div>
     </footer>
     <!-- footer section -->
-
+    <!-- Scripts -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="js/custom.js"></script>
     <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script> -->
     <!-- End Google Map -->
+    <script>
+      document.getElementById("displayDateYear").textContent =
+        new Date().getFullYear();
+    </script>
   </body>
 </html>

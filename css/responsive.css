@@ -7,6 +7,10 @@
         height: auto;
     }
 
+    .logo {
+        display: none;
+    }
+
     .header_section .main_nav {
         flex: 1;
     }
