@@ -123,6 +123,12 @@ a:focus {
   font-weight: bold;
 }
 
+.logo {
+  display: flex;
+  float: none;
+  justify-content: center;
+}
+
 .cert {
   font-weight: bold;
 }
