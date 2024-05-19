@@ -8,7 +8,7 @@
     }
 
     .logo {
-        display: none;
+        display: inline;
     }
 
     .header_section .main_nav {
@@ -41,6 +41,11 @@
 }
 
 @media (max-width: 767px) {
+
+    .about_section .magic {
+        display: contents;
+    }
+
     .layout_padding {
         padding-top: 90px;
         padding-bottom: 90px;

@@ -450,6 +450,10 @@ a:focus {
   width: 100%;
 }
 
+.about_section .magic {
+  display: contents;
+}
+
 .professional_section,
 .our_services {
   background-color: #d1e3ff;
