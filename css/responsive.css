@@ -6,9 +6,15 @@
     /* Add specific styles for this breakpoint if needed */
 }
 
+/* Align logo to center for screens smaller than 600px */
+
 @media (max-width: 992px) {
     .hero_area {
         height: auto;
+    }
+
+    .home_layout {
+        border-top: none;
     }
 
     .logo {
@@ -16,6 +22,10 @@
         float: none;
         justify-content: center;
     }
+
+    /* .logo_name {
+        display: none;
+    } */
 
     .header_section .main_nav {
         flex: 1;
@@ -49,12 +59,12 @@
 
 @media (max-width: 767px) {
     .layout_padding {
-        padding-top: 90px;
+        padding-top: 0px;
         padding-bottom: 90px;
     }
 
     .layout_padding-top {
-        padding-top: 90px;
+        padding-top: 0px;
     }
 
     .layout_padding-bottom {
@@ -81,9 +91,15 @@
         margin-bottom: 45px;
     }
 
-    .professional_section .img-box {
-        display: none;
+    .professional_section .kms {
+        font-size: 1.5em;
+        text-align: center;
+        align-items: center;
     }
+
+    /* .professional_section .img-box {
+        display: none;
+    } */
 
     .contact_section form {
         margin-bottom: 45px;

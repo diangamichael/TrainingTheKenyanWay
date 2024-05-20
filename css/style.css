@@ -114,6 +114,10 @@ a:focus {
   padding: 10px 0;
 }
 
+.header_section .header_bottom .navbar .navbar-brand .logoPic {
+  display: none;
+}
+
 .navbar-brand {
   padding: 0;
   margin: 0;
@@ -124,19 +128,6 @@ a:focus {
 }
 
 /* Other CSS rules */
-
-/* Align logo to center for screens smaller than 600px */
-@media (max-width: 600px) {
-  .navbar-brand {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .navbar-brand .logo {
-    margin: 0 auto;
-  }
-}
 
 .cert {
   font-weight: bold;
@@ -535,6 +526,12 @@ a:focus {
   color: #ff8a1d;
 }
 
+.professional_section .kms {
+  display: block;
+  font-size: 2em;
+  text-align: center;
+}
+
 .service_section {
   position: relative;
 }
@@ -895,3 +892,22 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+
+@media (max-width: 600px) {
+  .navbar-brand {
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+  }
+
+  /* .logo_name {
+    font-size: 0em;
+    display: none;
+  } */
+
+  .navbar-brand .logo {
+    margin: 0 auto;
+    width: 55%;
+  }
+}
