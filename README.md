@@ -1,1 +1,0 @@
-# TrainingTheKenyanWay rrrrrr
